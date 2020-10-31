@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+        .margen{
+            padding: 0 100px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+    .contacto{
+        width: 100%;
+        padding: 10px 0;
+        background: #f2f6f6;
+    }
+        .contacto .margen a{    
+            text-decoration: none;
+            color: #000;
+            font-family: sans-serif;
+            flex: 0 0 auto;
+        }
+    header{
+        background: red;
+    }   
+        header .margen2{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 100px;
+        }
+                header .logo img{
+                    width: 150px;
+
+                }
+            header .margen2 nav{
+                display: flex;   
+                width: 85%;
+               /*wrap estricatamente en el media*/
+                justify-content:space-around;
+                align-items: center;                     
+            }
+                    header .margen2 nav a{
+                        display:flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100%;
+                        font-size: 12px;
+                        width: 100%;
+                        background:blueviolet;
+                        padding: 10px;
+                        color: #fff;
+                        text-decoration: none;
+                        border-right: 1px solid #000;
+                    } 
+                    header .margen2 nav a:nth-last-child(1){
+                        border: none;
+                    }
+                    header .margen2 nav a:hover {
+                        background:yellow;
+                    } 
+        .seccion1{
+            height: 570px;
+            background:url(images/1.jpg);
+            background-size: cover;
+            background-position:center;
+            background-attachment: local;
+        }
+            .seccion1 .margen3{
+                height: 570px;
+                padding: 30px 100px;
+                display:flex;
+            }            
+                .seccion1 .margen3 .articulo1{
+                    width: 35%;
+                    display: flex;
+                    flex-direction: column;
+                    align-content: center;
+                }
+                    .seccion1 .margen3 .articulo1 h2{
+                        padding-bottom: 50px;
+                        font-size: 40px;
+                    }
+                    .seccion1 .margen3 .articulo1 h3{
+                        font-family: sans-serif;
+                        margin-bottom: 20px ;
+                    }
+                    .seccion1 .margen3 .articulo1 button{
+                        width: 100px;
+                    }
+        .slide{
+            padding: 0 200px;
+        }
+            .slide .margen4{
+                width: 100%;
+                padding: 20px 0px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+                .slide .margen4 .producto{
+                    width: 16%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                }
+                    .slide .margen4 .producto img{
+                        max-width: 100px;
+                    }
+                    .slide .margen4 .producto h4{
+                        padding: 10px;
+                        text-align: center;
+                    }   
+        .seccion2{
+            background:url(images/2.jpg);
+            height: 570px;
+            background-size: cover;
+            background-position:center;
+            background-attachment: scroll;
+        }
+            .seccion2 .margen5{
+                height: 570px;
+                padding:50px 0px;
+                padding: 60px 100px;
+                display:flex;
+                flex-flow: row-reverse;
+            }
+                .seccion2 .margen5 .articulo2{
+                    width: 35%;
+                    display: flex;
+                    flex-direction: column;
+                }
+                    .seccion2 .margen5 .articulo2 h2{
+                        padding-bottom: 50px;
+                        font-size: 40px;
+                    }
+                    .seccion2 .margen5 .articulo2 h3{
+                        font-family: sans-serif;
+                        margin-bottom: 20px ;
+                    }
+                    .seccion2 .margen5 .articulo2 button{
+                        width: 100px;
+                    }
+        .seccion3{
+            height: 570px;
+            background:url(images/3.jpg);
+            background-size: cover;
+            background-position:center;
+            background-attachment: local;
+        }
+            .seccion3 .margen6{
+                height: 570px;
+                padding: 30px 100px;
+                display:flex;
+            }            
+                .seccion3 .margen6 .articulo3{
+                    width: 35%;
+                    display: flex;
+                    flex-direction: column;
+                    align-content: center;
+                }
+                    .seccion3 .margen6 .articulo3 h2{
+                        color: #fff;
+                        padding-bottom: 50px;
+                        font-size: 40px;
+                    }
+                    .seccion3 .margen6 .articulo3 h3{
+                        color: #fff;
+                        font-family: sans-serif;
+                        margin-bottom: 20px ;
+                    }
+                    .seccion3 .margen6 .articulo3 button{
+                        width: 150px;
+                    }
+        .seccion4{
+            background:url(images/4.png);
+            height: 570px;
+            background-size: cover;
+            background-position:center;
+            background-attachment: scroll;
+        }
+            .seccion4 .margen7{
+                height: 570px;
+                padding:50px 0px;
+                padding: 60px 100px;
+                display:flex;
+                flex-flow: row-reverse;
+            }
+                .seccion4 .margen7 .articulo4{
+                    width: 35%;
+                    display: flex;
+                    flex-direction: column;
+                }
+                    .seccion4 .margen7 .articulo4 h2{
+                        color: #fff;
+                        padding-bottom: 50px;
+                        font-size: 40px;
+                    }
+                    .seccion4 .margen7 .articulo4 h3{
+                        color:#fff;
+                        font-family: sans-serif;
+                        margin-bottom: 20px ;
+                    }
+                    .seccion4 .margen7 .articulo4 button{
+                        width: 100px;
+                    }
+        .redes{
+            background: red;
+            width: 100%;
+            padding:10px 300px;
+            justify-content: space-between;
+            /**/
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+            .redes a{
+                color:#000;
+                padding: 5px;
+                flex: 1 1 15%;
+                text-align: center;
+                text-decoration: none;
+            } 
+            .redes h3{
+                flex:0 0 auto;
+            }
+        .servicios{
+            background: rosybrown;
+            padding: 10px 120px;
+            display:flex;
+        }
+            .servicios .productos{
+                display: flex;
+                flex-direction: column;
+            }
+             .servicios .productos a{
+                 padding: 2px;
+             }
+             .servicios .productos h3{
+                 padding: 2px;
+             }
+        .footer{
+            padding:  20px 120px;
+            background:orange;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+
+        }
+            .footer 
